@@ -12,7 +12,49 @@
 		011CB06C2AE179010015CA92 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB06B2AE179010015CA92 /* Item.swift */; };
 		011CB06E2AE179030015CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011CB06D2AE179030015CA92 /* Assets.xcassets */; };
 		011CB0722AE179030015CA92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011CB0712AE179030015CA92 /* Preview Assets.xcassets */; };
+		011CB0802AE1794F0015CA92 /* GymWatchCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB07F2AE1794F0015CA92 /* GymWatchCompanionApp.swift */; };
+		011CB0822AE1794F0015CA92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0812AE1794F0015CA92 /* ContentView.swift */; };
+		011CB0842AE179510015CA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011CB0832AE179510015CA92 /* Assets.xcassets */; };
+		011CB0872AE179510015CA92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011CB0862AE179510015CA92 /* Preview Assets.xcassets */; };
+		011CB08A2AE179510015CA92 /* GymWatchCompanion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 011CB07D2AE1794E0015CA92 /* GymWatchCompanion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		011CB0922AE17BCF0015CA92 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0912AE17BCF0015CA92 /* MotionManager.swift */; };
+		011CB0932AE17BD00015CA92 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0912AE17BCF0015CA92 /* MotionManager.swift */; };
+		011CB0962AE180E00015CA92 /* DateComponentsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0952AE180E00015CA92 /* DateComponentsFormatter.swift */; };
+		011CB0972AE180E00015CA92 /* DateComponentsFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0952AE180E00015CA92 /* DateComponentsFormatter.swift */; };
+		011CB0992AE1AD0A0015CA92 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0982AE1AD0A0015CA92 /* HealthKitManager.swift */; };
+		011CB09A2AE1AD0A0015CA92 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0982AE1AD0A0015CA92 /* HealthKitManager.swift */; };
+		011CB0A02AE1B3A30015CA92 /* WorkoutKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB09F2AE1B3A30015CA92 /* WorkoutKitManager.swift */; };
+		011CB0A12AE1B3A30015CA92 /* WorkoutKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB09F2AE1B3A30015CA92 /* WorkoutKitManager.swift */; };
+		011CB0A42AE1B9200015CA92 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0A32AE1B9200015CA92 /* WorkoutModel.swift */; };
+		011CB0A72AE1BA040015CA92 /* WorkoutStepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0A62AE1BA040015CA92 /* WorkoutStepModel.swift */; };
+		011CB0AA2AE1BA7C0015CA92 /* WorkoutGoalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0A92AE1BA7C0015CA92 /* WorkoutGoalModel.swift */; };
+		011CB0AD2AE1BB7D0015CA92 /* IntervalBlockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0AC2AE1BB7D0015CA92 /* IntervalBlockModel.swift */; };
+		011CB0B02AE1BC200015CA92 /* IntervalStepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011CB0AF2AE1BC200015CA92 /* IntervalStepModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		011CB0882AE179510015CA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011CB05C2AE179010015CA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011CB07C2AE1794E0015CA92;
+			remoteInfo = "GymWatchCompanion Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		011CB08E2AE179510015CA92 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				011CB08A2AE179510015CA92 /* GymWatchCompanion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		011CB0642AE179010015CA92 /* GymCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,10 +65,33 @@
 		011CB06F2AE179030015CA92 /* GymCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GymCompanion.entitlements; sourceTree = "<group>"; };
 		011CB0712AE179030015CA92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		011CB0732AE179030015CA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011CB07D2AE1794E0015CA92 /* GymWatchCompanion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GymWatchCompanion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		011CB07F2AE1794F0015CA92 /* GymWatchCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymWatchCompanionApp.swift; sourceTree = "<group>"; };
+		011CB0812AE1794F0015CA92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		011CB0832AE179510015CA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		011CB0862AE179510015CA92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		011CB08F2AE179640015CA92 /* GymWatchCompanion-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GymWatchCompanion-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		011CB0902AE179940015CA92 /* GymWatchCompanion Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GymWatchCompanion Watch App.entitlements"; sourceTree = "<group>"; };
+		011CB0912AE17BCF0015CA92 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		011CB0952AE180E00015CA92 /* DateComponentsFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentsFormatter.swift; sourceTree = "<group>"; };
+		011CB0982AE1AD0A0015CA92 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		011CB09F2AE1B3A30015CA92 /* WorkoutKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutKitManager.swift; sourceTree = "<group>"; };
+		011CB0A32AE1B9200015CA92 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		011CB0A62AE1BA040015CA92 /* WorkoutStepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStepModel.swift; sourceTree = "<group>"; };
+		011CB0A92AE1BA7C0015CA92 /* WorkoutGoalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutGoalModel.swift; sourceTree = "<group>"; };
+		011CB0AC2AE1BB7D0015CA92 /* IntervalBlockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalBlockModel.swift; sourceTree = "<group>"; };
+		011CB0AF2AE1BC200015CA92 /* IntervalStepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalStepModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		011CB0612AE179010015CA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011CB07A2AE1794E0015CA92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,7 +104,11 @@
 		011CB05B2AE179010015CA92 = {
 			isa = PBXGroup;
 			children = (
+				011CB0B22AE1DAB80015CA92 /* Managers */,
+				011CB09E2AE1B3560015CA92 /* Extensions */,
+				011CB0942AE180C30015CA92 /* Formatters */,
 				011CB0662AE179010015CA92 /* GymCompanion */,
+				011CB07E2AE1794E0015CA92 /* GymWatchCompanion Watch App */,
 				011CB0652AE179010015CA92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				011CB0642AE179010015CA92 /* GymCompanion.app */,
+				011CB07D2AE1794E0015CA92 /* GymWatchCompanion Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +125,7 @@
 		011CB0662AE179010015CA92 /* GymCompanion */ = {
 			isa = PBXGroup;
 			children = (
+				011CB0A22AE1B8D10015CA92 /* Models */,
 				011CB0672AE179010015CA92 /* GymCompanionApp.swift */,
 				011CB0692AE179010015CA92 /* ContentView.swift */,
 				011CB06B2AE179010015CA92 /* Item.swift */,
@@ -74,6 +145,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		011CB07E2AE1794E0015CA92 /* GymWatchCompanion Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				011CB0902AE179940015CA92 /* GymWatchCompanion Watch App.entitlements */,
+				011CB08F2AE179640015CA92 /* GymWatchCompanion-Watch-App-Info.plist */,
+				011CB07F2AE1794F0015CA92 /* GymWatchCompanionApp.swift */,
+				011CB0812AE1794F0015CA92 /* ContentView.swift */,
+				011CB0832AE179510015CA92 /* Assets.xcassets */,
+				011CB0852AE179510015CA92 /* Preview Content */,
+			);
+			path = "GymWatchCompanion Watch App";
+			sourceTree = "<group>";
+		};
+		011CB0852AE179510015CA92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				011CB0862AE179510015CA92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		011CB0942AE180C30015CA92 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				011CB0952AE180E00015CA92 /* DateComponentsFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		011CB09E2AE1B3560015CA92 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				011CB0912AE17BCF0015CA92 /* MotionManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		011CB0A22AE1B8D10015CA92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				011CB0A32AE1B9200015CA92 /* WorkoutModel.swift */,
+				011CB0A62AE1BA040015CA92 /* WorkoutStepModel.swift */,
+				011CB0A92AE1BA7C0015CA92 /* WorkoutGoalModel.swift */,
+				011CB0AC2AE1BB7D0015CA92 /* IntervalBlockModel.swift */,
+				011CB0AF2AE1BC200015CA92 /* IntervalStepModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		011CB0B22AE1DAB80015CA92 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				011CB09F2AE1B3A30015CA92 /* WorkoutKitManager.swift */,
+				011CB0982AE1AD0A0015CA92 /* HealthKitManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,14 +213,33 @@
 				011CB0602AE179010015CA92 /* Sources */,
 				011CB0612AE179010015CA92 /* Frameworks */,
 				011CB0622AE179010015CA92 /* Resources */,
+				011CB08E2AE179510015CA92 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011CB0892AE179510015CA92 /* PBXTargetDependency */,
+			);
+			name = GymCompanion;
+			productName = GymCompanion;
+			productReference = 011CB0642AE179010015CA92 /* GymCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011CB07C2AE1794E0015CA92 /* GymWatchCompanion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011CB08B2AE179510015CA92 /* Build configuration list for PBXNativeTarget "GymWatchCompanion Watch App" */;
+			buildPhases = (
+				011CB0792AE1794E0015CA92 /* Sources */,
+				011CB07A2AE1794E0015CA92 /* Frameworks */,
+				011CB07B2AE1794E0015CA92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GymCompanion;
-			productName = GymCompanion;
-			productReference = 011CB0642AE179010015CA92 /* GymCompanion.app */;
+			name = "GymWatchCompanion Watch App";
+			productName = "GymWatchCompanion Watch App";
+			productReference = 011CB07D2AE1794E0015CA92 /* GymWatchCompanion Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,6 +253,9 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					011CB0632AE179010015CA92 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					011CB07C2AE1794E0015CA92 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -123,6 +274,7 @@
 			projectRoot = "";
 			targets = (
 				011CB0632AE179010015CA92 /* GymCompanion */,
+				011CB07C2AE1794E0015CA92 /* GymWatchCompanion Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +289,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		011CB07B2AE1794E0015CA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011CB0872AE179510015CA92 /* Preview Assets.xcassets in Resources */,
+				011CB0842AE179510015CA92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -144,13 +305,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011CB0B02AE1BC200015CA92 /* IntervalStepModel.swift in Sources */,
 				011CB06A2AE179010015CA92 /* ContentView.swift in Sources */,
+				011CB0A42AE1B9200015CA92 /* WorkoutModel.swift in Sources */,
+				011CB0962AE180E00015CA92 /* DateComponentsFormatter.swift in Sources */,
+				011CB0992AE1AD0A0015CA92 /* HealthKitManager.swift in Sources */,
 				011CB06C2AE179010015CA92 /* Item.swift in Sources */,
+				011CB0A02AE1B3A30015CA92 /* WorkoutKitManager.swift in Sources */,
+				011CB0AA2AE1BA7C0015CA92 /* WorkoutGoalModel.swift in Sources */,
 				011CB0682AE179010015CA92 /* GymCompanionApp.swift in Sources */,
+				011CB0922AE17BCF0015CA92 /* MotionManager.swift in Sources */,
+				011CB0A72AE1BA040015CA92 /* WorkoutStepModel.swift in Sources */,
+				011CB0AD2AE1BB7D0015CA92 /* IntervalBlockModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011CB0792AE1794E0015CA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011CB0A12AE1B3A30015CA92 /* WorkoutKitManager.swift in Sources */,
+				011CB0972AE180E00015CA92 /* DateComponentsFormatter.swift in Sources */,
+				011CB0822AE1794F0015CA92 /* ContentView.swift in Sources */,
+				011CB0932AE17BD00015CA92 /* MotionManager.swift in Sources */,
+				011CB09A2AE1AD0A0015CA92 /* HealthKitManager.swift in Sources */,
+				011CB0802AE1794F0015CA92 /* GymWatchCompanionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011CB0892AE179510015CA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011CB07C2AE1794E0015CA92 /* GymWatchCompanion Watch App */;
+			targetProxy = 011CB0882AE179510015CA92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		011CB0742AE179030015CA92 /* Debug */ = {
@@ -270,6 +461,7 @@
 		011CB0772AE179030015CA92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GymCompanion/GymCompanion.entitlements;
@@ -299,7 +491,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasblack.GymCompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,6 +502,7 @@
 		011CB0782AE179030015CA92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = GymCompanion/GymCompanion.entitlements;
@@ -338,10 +532,78 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasblack.GymCompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		011CB08C2AE179510015CA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GymWatchCompanion Watch App/GymWatchCompanion Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymWatchCompanion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PK8WVYF36Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GymWatchCompanion-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GymWatchCompanion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nicholasblack.GymCompanion;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasblack.GymCompanion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		011CB08D2AE179510015CA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GymWatchCompanion Watch App/GymWatchCompanion Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymWatchCompanion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PK8WVYF36Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GymWatchCompanion-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GymWatchCompanion;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.nicholasblack.GymCompanion;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasblack.GymCompanion.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -362,6 +624,15 @@
 			buildConfigurations = (
 				011CB0772AE179030015CA92 /* Debug */,
 				011CB0782AE179030015CA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011CB08B2AE179510015CA92 /* Build configuration list for PBXNativeTarget "GymWatchCompanion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011CB08C2AE179510015CA92 /* Debug */,
+				011CB08D2AE179510015CA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
